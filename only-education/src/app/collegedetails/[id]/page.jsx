@@ -1,9 +1,13 @@
 import React from 'react'
+import CollegeInfo from "@/app/modules/collegeDetails/collegeInfo";
+import CollegeDetailTemplate from "@/app/modules/collegeDetails";
 
 const CollegeDetails = () => {
   return (
-    <div>CollegeDetails</div>
-  )
-}
+    <>
+      <CollegeDetailTemplate />
+    </>
+  );
+};
 
 export default CollegeDetails

@@ -1,7 +1,14 @@
 import React from "react";
+import CollegeInfo from "./collegeInfo";
+import CollegeDetailNav from "./collegeDetailNav";
 
-const CollegeDetails = () => {
-  return <div>CollegeDetails</div>;
+const CollegeDetailTemplate = () => {
+  return (
+    <>
+      <CollegeInfo />
+      <CollegeDetailNav />
+    </>
+  );
 };
 
-export default CollegeDetails;
+export default CollegeDetailTemplate;
