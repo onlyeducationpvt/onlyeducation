@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-color: #F9F5E0;
+background-color: #F9F5E0
 }
 .primaryTextColor{
 color: #0000;
@@ -19,4 +19,11 @@ color: #6f6e6f;
 }
 .wrapper{
   padding: 10px;
+}
+h3{
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+li{
+  margin-left:8px ;
 }

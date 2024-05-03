@@ -6,8 +6,8 @@ import { GoStarFill } from "react-icons/go";
 const CollegeInfo = () => {
   return (
     <section className="w-full h-full text-white">
-      <div className="wrapper p-10 ">
-        <div className="p-10 flex bg-white text-black rounded-md border-gray-300 border-[1px]">
+      <div className="wrapper sm:px-10 py-3 ">
+        <div className="sm:p-10 flex flex-col sm:flex-row p-4 bg-white text-black rounded-md border-gray-300 border-[1px]">
           <div className="logo aspect-square w-[100px] h-[100px] relative border-gray-300 border-[1px] rounded-md">
             <Image
               src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/640px-IIT_Madras_Logo.svg.png"
@@ -15,7 +15,7 @@ const CollegeInfo = () => {
               className="object-cover object-center p-3 "
             />
           </div>
-          <div className="ml-5 flex flex-col justify-between py-2">
+          <div className="sm:ml-5 flex flex-col justify-between py-2">
             <h3 className="text-lg font-semibold">
               IIT Madras: Courses, Fees, Admission, Cutoff, Placements
             </h3>

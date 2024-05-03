@@ -3,14 +3,14 @@ import React from "react";
 const CollegeDetailNav = () => {
   return (
     <div className="w-full h-full">
-      <div className="px-10 wrapper">
-        <div className="bg-white p-10 rounded-md border-gray-300 border-[1px]">
-          <ul class="flex flex-wrap text-sm font-medium text-center text-[#6f6e6f] border-b border-gray-200 ">
+      <div className="sm:px-10 wrapper">
+        <div className="bg-white px-2 sm:px-10 py-2 rounded-md border-gray-300 border-[1px]">
+          <ul class="flex text-sm font-medium text-center text-[#6f6e6f] overflow-y-scroll ">
             <li class="me-2">
               <a
                 href="#"
                 aria-current="page"
-                class="inline-block p-4 text-white bg-[#f0943f] rounded-t-lg active"
+                class="inline-block p-3 text-white bg-[#f0943f] rounded-lg active"
               >
                 Cutoff
               </a>
@@ -18,7 +18,7 @@ const CollegeDetailNav = () => {
             <li class="me-2">
               <a
                 href="#"
-                class="inline-block p-4 rounded-t-lg  hover:text-white hover:bg-[#f0943f]"
+                class="inline-block p-3 rounded-lg  hover:text-white hover:bg-[#f0943f]"
               >
                 Courses&fees
               </a>
@@ -26,7 +26,7 @@ const CollegeDetailNav = () => {
             <li class="me-2">
               <a
                 href="#"
-                class="inline-block p-4 rounded-t-lg  hover:text-white hover:bg-[#f0943f]"
+                class="inline-block p-3 rounded-lg  hover:text-white hover:bg-[#f0943f]"
               >
                 Admission
               </a>
@@ -34,7 +34,7 @@ const CollegeDetailNav = () => {
             <li class="me-2">
               <a
                 href="#"
-                class="inline-block p-4 rounded-t-lg  hover:text-white hover:bg-[#f0943f]"
+                class="inline-block p-3 rounded-lg  hover:text-white hover:bg-[#f0943f]"
               >
                 Placement
               </a>
@@ -42,7 +42,7 @@ const CollegeDetailNav = () => {
             <li class="me-2">
               <a
                 href="#"
-                class="inline-block p-4 rounded-t-lg  hover:text-white hover:bg-[#f0943f]"
+                class="inline-block p-3 rounded-lg  hover:text-white hover:bg-[#f0943f]"
               >
                 Result
               </a>
@@ -50,7 +50,7 @@ const CollegeDetailNav = () => {
             <li class="me-2">
               <a
                 href="#"
-                class="inline-block p-4 rounded-t-lg  hover:text-white hover:bg-[#f0943f]"
+                class="inline-block p-3 rounded-lg  hover:text-white hover:bg-[#f0943f]"
               >
                 Infrastructure
               </a>
@@ -58,7 +58,7 @@ const CollegeDetailNav = () => {
             <li class="me-2">
               <a
                 href="#"
-                class="inline-block p-4 rounded-t-lg  hover:text-white hover:bg-[#f0943f]"
+                class="inline-block p-3 rounded-lg  hover:text-white hover:bg-[#f0943f]"
               >
                 Gallary
               </a>
@@ -66,7 +66,7 @@ const CollegeDetailNav = () => {
             <li class="me-2">
               <a
                 href="#"
-                class="inline-block p-4 rounded-t-lg  hover:text-white hover:bg-[#f0943f]"
+                class="inline-block p-3 rounded-lg  hover:text-white hover:bg-[#f0943f]"
               >
                 Ranking
               </a>
